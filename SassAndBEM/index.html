@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SASS and BEM</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    @mixin @include @extend %virutalselector (of you do not use extend % will be
+    not processed)
+    <p>
+      calc(100vh - 20px) // not 100vh - 20px (undeined - not known value of vh)
+    </p>
+
+    <p>
+      p.#{$variable} ==> p.variable (as class)
+    </p>
+
+    Function: lighten(), darken(), @if (true) {do this} @else {}, if@(){} else
+    if(){} else {}, (and & or like in JS) @error
+
+    <h3>Media Queries</h3>
+    @media (min-width: 640px)
+
+    <p>Breakpoints</p>
+    xsmall: (min-witdth: 460px) small: (min-witdth: 640px) medium: (min-witdth:
+    800px) large: (min-witdth: 1024px), xlargeL (min-width: 1200px), xxlarge:
+    (nim-width 1440px)
+  </body>
+</html>
