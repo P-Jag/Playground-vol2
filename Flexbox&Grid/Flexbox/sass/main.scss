@@ -1,0 +1,67 @@
+$main-color: #8daae5;
+$default-font: arial,
+sans-serif;
+$special-font: 'pt sans',
+'roboto',
+arial,
+sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  background-color: $main-color;
+  font-family: $default-font;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  min-height: 100vh;
+  font-size: 2rem;
+  max-width: 1000px;
+  background-color: #fff;
+  margin: 0 auto;
+  box-shadow: 0 0 4px 0 #000;
+}
+
+.logo {
+  flex-basis: 200px;
+  // height: 80px;
+  background-color: cadetblue;
+}
+
+.search {
+  background-color: greenyellow;
+  flex-grow: 1;
+}
+
+.settings {
+  background-color: yellow;
+}
+
+.menu {
+  flex-basis: 100%;
+  background-color: hotpink;
+}
+
+.main-article {
+  flex-basis: 100%;
+  // min-height: 400px;
+  background-color: silver;
+}
+
+.article-list {
+  flex-basis: 100%;
+  background-color: mediumslateblue;
+}
+
+.footer {
+  flex-basis: 100%;
+  background-color: sienna;
+}
