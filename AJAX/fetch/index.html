@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJAX - fetch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="generator">
+      <label class="generator__input-name" for="gender">
+        Choose gender
+        <select class="generator__select" name="gender">
+          <option value="both" selected>Both</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </label>
+      <label class="generator__input-name">
+        Enter No.
+        <input type="number" name="users" value="10" class="generator__input" />
+      </label>
+      <input type="submit" class="button" value="Show users" />
+    </form>
+    <div class="user-list"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
